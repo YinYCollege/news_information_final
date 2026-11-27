@@ -22,7 +22,11 @@ The can input some filters which goes through the program and the program search
 
 ## Setup
 
-
+Clone this repository to your local machine.
+Go to https://apilayer.com/
+Log in then go to https://app.apilayer.com/api-details/mediastack
+Move the .env.example to .env and then copy the apikey from mediastack into the .env file
+Run the command uv run src/scratch.py
 
 ## Usage
 
