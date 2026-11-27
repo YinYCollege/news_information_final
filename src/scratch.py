@@ -75,6 +75,7 @@ class MainWindow(QMainWindow):
             self.newsItems.addWidget(NewsEntry(data[i]["author"], data[i]["title"], data[i]["description"], data[i]["url"]))
 
 def fetch(url: str = "https://api.apilayer.net/mediastack/v1/news"):
+    global cache
     params = {
             "access_key": os.getenv("API_KEY"),
             "countries": "us",
